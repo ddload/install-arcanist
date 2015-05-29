@@ -27,3 +27,8 @@ echo "Registering arc command.."
 ln -s "$PHP_DIR/arcanist/bin/arc" "$BIN_DIR/arc"
 
 echo "Done!"
+echo "If use zsh,add the following line to your ~/.zshrc，then run command source ~/.zshrc to active auto-complete."
+echo "autoload bashcompinit"
+echo "bashcompinit"
+echo "source $PHP_DIR/arcanist/resources/shell/bash-completion"
+
