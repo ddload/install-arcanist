@@ -18,7 +18,6 @@ if [ -e "$PHP_DIR/libphutil" ]; then
 else
     git clone git://github.com/facebook/libphutil.git "$PHP_DIR/libphutil"
     git clone git://github.com/facebook/arcanist.git "$PHP_DIR/arcanist"
-    git clone git://github.com/facebook/phabricator.git "$PHP_DIR/phabricator"
 fi
 
 # Register arc commands
