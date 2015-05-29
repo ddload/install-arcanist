@@ -16,8 +16,8 @@ echo "Updating arcanist repos.."
 if [ -e "$PHP_DIR/libphutil" ]; then
     arc upgrade
 else
-    git clone git://github.com/facebook/libphutil.git "$PHP_DIR/libphutil"
-    git clone git://github.com/facebook/arcanist.git "$PHP_DIR/arcanist"
+    git clone git://github.com/phacility/libphutil.git "$PHP_DIR/libphutil"
+    git clone git://github.com/phacility/arcanist.git "$PHP_DIR/arcanist"
 fi
 
 # Register arc commands
